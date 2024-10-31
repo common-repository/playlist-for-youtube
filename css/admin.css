@@ -1,0 +1,40 @@
+#playlists_yt {
+	margin-top:  20px;
+}
+
+#playlists_yt::after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+#playlists_yt .playlist_yt {
+	width: 420px;
+	display: inline-block;
+	margin-right: 5px;
+	background: #ddd;
+	padding: 5px;
+}
+
+#playlists_yt img.remove {
+	cursor: pointer;
+}
+
+#form_new_pl_yt label, .playlist_yt form label {
+	display: inline-block;
+	width: 200px;
+	vertical-align: top;
+}
+
+#form_new_pl_yt input[type=text], #form_new_pl_yt textarea, #form_new_pl_yt select,
+.playlist_yt input[type=text], .playlist_yt textarea, .playlist_yt select {
+	width: 200px;
+}
+
+#yt_pl_info {
+	width: 320px;
+}
+
+#yt_pl_info img {
+	max-width: 100%;
+}
